@@ -1,0 +1,22 @@
+body{
+
+    background: linear-gradient(to bottom, rgb(255, 218, 224) 0%, pink 40%);
+    min-height: 100vh;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.navigation {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 7%;
+    width: 100%;
+    top: 5%;
+    right: 10%;
+    gap: 3%;
+
+
+}
