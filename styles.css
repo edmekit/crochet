@@ -1,6 +1,6 @@
 body{
 
-    background: linear-gradient(to bottom, rgb(255, 218, 224) 0%, pink 40%);
+    background: linear-gradient(to bottom, rgb(255, 218, 224) 0%, rgb(238, 154, 168) 80%);
     min-height: 100vh;
     margin: 0;
     position: relative;
@@ -34,31 +34,69 @@ body{
     position: absolute;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    justify-content: center;
+    flex-wrap: nowrap;
     bottom: 35%;
     left: 10%;
-    width: 25%;
-    height: 30%;
+    width: 30%;
+    height: 40%;
     background-color: rgb(252, 157, 172);
     gap: 5%;
     border-radius: 10%;
+    text-align: center;
+    border-color: rgb(255, 218, 224);
+    border-width: 4px;
 }
 
 .section h2{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 200%;
     padding-top: 5%;
-    padding-left: 10%;
     color: rgb(245, 229, 229);
+    text-shadow: 1px 1px 1px rgb(24, 12, 12);
 }
 
-.section button{ 
+.buttons {
+    padding-bottom: 15%;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 7%;
+}
 
+.buttons button{
+    width: 25%;
+    height: 200%;
+    border-radius: 10%;
+    border-color: rgb(249, 135, 135);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    border-width: 3px;
+}
 
+.gallery{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    text-shadow: 1px 1px 1px rgb(245, 229, 229);
+    background-color: rgb(249, 135, 135);
+}
+
+.gallery:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 182, 182);
+}
+
+.order:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 182, 182);
 }
 
 .cloud{
+    width: 20%;
+    height: auto;
     position: absolute;
-    top: 50%;
-    left: 8%;
+    top: 10%;
+    left: 60%;
 }
