@@ -30,13 +30,27 @@ body{
     padding-bottom: 20px;
 }
 
-.navigation a{
+.navigation button{
     align-self: center;
-    padding-right: 5%;
+    padding-right: 10%;
+    width: 10%;
+    height: 70%;
+    border-radius: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: small;
+    border-width: 3px;
+    border-style: solid;
+    border-color: papayawhip;
+    
 }
 
-.navigation img{
-    padding-right: 3%;
+.logo {
+    display: flex;
+    padding-left: 3%;
+    width: 55px;
+    height: auto;
+    border-radius: 50%;
+    margin-right: auto;
 }
 
 .section{
