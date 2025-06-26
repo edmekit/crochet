@@ -32,25 +32,26 @@ body{
 
 .navigation button{
     align-self: center;
-    padding-right: 10%;
+    height: 90%;
     width: 10%;
-    height: 70%;
     border-radius: 10%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: small;
     border-width: 3px;
     border-style: solid;
-    border-color: papayawhip;
+    border-color: white;
+    margin-right: 5%;
+    background-color: rgb(255, 233, 233)
     
 }
 
 .logo {
-    display: flex;
-    padding-left: 3%;
+    display: flex; 
     width: 55px;
-    height: auto;
+    height: 55px;
     border-radius: 50%;
     margin-right: auto;
+    margin-left: 3%;
 }
 
 .section{
