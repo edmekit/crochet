@@ -33,16 +33,19 @@ body{
 .navigation button{
     align-self: center;
     height: 90%;
-    width: 10%;
+    width: 8%;
     border-radius: 10%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: small;
     border-width: 3px;
     border-style: solid;
-    border-color: white;
+    border-color: papayawhip;
     margin-right: 5%;
-    background-color: rgb(255, 233, 233)
-    
+    background-color: white;   
+}
+
+.navigation button:hover{
+    background-color: rgb(255, 182, 182);
 }
 
 .logo {
